@@ -1,0 +1,8 @@
+Package: pulseaudio-steelseries-arctis-5
+Version: 0.1
+Maintainer: Bert Hekman <demontpx@gmail.com>
+Homepage: https://github.com/DemonTPx/steelseries-arctis-5-pulseaudio-profile
+Architecture: all
+Depends: pulseaudio, udev
+Section: sound
+Description: Pulseaudio configuration for the SteelSeries Arctis 5
