@@ -5,12 +5,12 @@ The SteelSeries Arctis 5 is a gaming headset which has two stereo audio outputs.
 By default, pulseaudio only enables the voice chat output. This profile enables the second (game) output and the udev rule makes sure this profile is used when plugging in the device.
 
 ## Installing
- 
+
 ### Ubuntu / Linux Mint
 
 Download and install:
 
-- [pulseaudio-steelseries-arctis-5_0.1_all.deb](https://github.com/DemonTPx/steelseries-arctis-5-pulseaudio-profile/releases/download/0.1/pulseaudio-steelseries-arctis-5_0.1_all.deb)
+- [pulseaudio-steelseries-arctis-5_0.2_all.deb](https://github.com/DemonTPx/steelseries-arctis-5-pulseaudio-profile/releases/download/0.2/pulseaudio-steelseries-arctis-5_0.2_all.deb)
 
 After that, plug in the device to see if it works.
 
@@ -18,7 +18,13 @@ After that, plug in the device to see if it works.
 
 Install from by copying the following files:
 
-- `steelseries-arctis-5-usb-audio.confsteelseries-arctis-5-usb-audio.conf` to `/usr/share/pulseaudio/alsa-mixer/profile-sets/`
+- `steelseries-arctis-5-output-game.conf` and `steelseries-arctis-5-output-chat.conf` to `/usr/share/pulseaudio/alsa-mixer/paths/`
+- `steelseries-arctis-5-usb-audio.conf` to `/usr/share/pulseaudio/alsa-mixer/profile-sets/`
 - `91-pulseaudio-steelseries-arctis-5.rules` to `/lib/udev/rules.d/`
+
+Restart pulseaudio:
+
+    pulseaudio -k
+    pulseaudio --start
 
 After that, plug in the device to see if it works.
