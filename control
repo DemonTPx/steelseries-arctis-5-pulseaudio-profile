@@ -1,5 +1,5 @@
 Package: pulseaudio-steelseries-arctis-5
-Version: 0.2
+Version: 0.3
 Maintainer: Bert Hekman <demontpx@gmail.com>
 Homepage: https://github.com/DemonTPx/steelseries-arctis-5-pulseaudio-profile
 Architecture: all
