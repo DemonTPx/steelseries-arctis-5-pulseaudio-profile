@@ -10,7 +10,7 @@ By default, pulseaudio only enables the voice chat output. This profile enables 
 
 Download and install:
 
-- [pulseaudio-steelseries-arctis-5_0.2_all.deb](https://github.com/DemonTPx/steelseries-arctis-5-pulseaudio-profile/releases/download/0.2/pulseaudio-steelseries-arctis-5_0.2_all.deb)
+- [pulseaudio-steelseries-arctis-5_0.3_all.deb](https://github.com/DemonTPx/steelseries-arctis-5-pulseaudio-profile/releases/download/0.3/pulseaudio-steelseries-arctis-5_0.3_all.deb)
 
 After that, plug in the device to see if it works.
 
