@@ -4,6 +4,12 @@ The SteelSeries Arctis 5 is a gaming headset which has two stereo audio outputs.
 
 By default, pulseaudio only enables the voice chat output. This profile enables the second (game) output and the udev rule makes sure this profile is used when plugging in the device.
 
+## You probably don't need this anymore!
+
+This change has been [merged into pulseaudio since version 13.0](https://www.freedesktop.org/wiki/Software/PulseAudio/Notes/13.0/) and [has been backported to ubuntu](https://bugs.launchpad.net/ubuntu/+source/pulseaudio/+bug/1758736) (since pulseaudio version 11.1-1ubuntu7.2.) That means you need to check if you are using at least this version. If you do so, **don't install this configuration** as it might stop your headset from working properly.
+
+If you installed this configuration before updating to these pulseaudio versions, then please remove the configuration.
+
 ## Installing
 
 ### Ubuntu / Linux Mint
